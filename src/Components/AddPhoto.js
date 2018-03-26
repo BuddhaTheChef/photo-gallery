@@ -11,7 +11,7 @@ handleSubmit(event) {
   const imageLink = event.target.elements.link.value;
   const description = event.target.elements.description.value;
   const post = {
-    id: 0,
+    id: Number(new Date()),
     description: description,
     imageLink: imageLink
   }
