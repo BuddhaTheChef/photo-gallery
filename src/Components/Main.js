@@ -27,7 +27,7 @@ class Main extends Component {
 
     }
     this.removePhoto = this.removePhoto.bind(this);
-  
+
     console.log('constructor')
   }
 
@@ -35,6 +35,12 @@ class Main extends Component {
     console.log(postRemoved.description)
     this.setState((state) => ({
       posts: state.posts.filter(post => post !== postRemoved)
+    }))
+  }
+
+  addPhoto(postSubmitted) {
+    this.setState((state) => ({
+      posts: state.posts.concat([postSubmitted])
     }))
   }
 
@@ -59,7 +65,12 @@ class Main extends Component {
       )}/>
 
 
-      <Route path= "/AddPhoto" component = {AddPhoto}/>
+      <Route path= "/AddPhoto" render={({history}) => (
+        <AddPhoto onAddPhoto= {(addedPost) => {
+          this.addPhoto(addedPost)
+          history.push("/")
+        }}/>
+      )}/>
 
       </div>
     )
