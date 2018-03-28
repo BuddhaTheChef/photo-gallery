@@ -11,10 +11,6 @@ class Main extends Component {
     super()
   }
 
-  componentDidMount(){
-    this.props.removePost(1)
-  }
-
   render() {
     console.log(this.props)
     return (
