@@ -1,8 +1,13 @@
-import posts from '../data/posts'
+import _posts from '../data/posts'
+import {combineReducers} from 'redux'
 
-const postReducer = function posts(state = posts, action) {
-  console.log(action.index)
+function comments(state=[], action) {
+  console.log('comments reducer')
+  return state
+}
 
+function posts(state = _posts, action) {
+  console.log('wppw')
   switch(action.type) {
     case 'REMOVE_POST': return [...state.slice(0, action.index), ...state.slice(action.index + 1)]
     case 'ADD_POST': return [...state, action.post]
@@ -10,7 +15,9 @@ const postReducer = function posts(state = posts, action) {
 
 
   }
-    return state
+
 }
 
-export default postReducer
+const rootReducer = combineReducers({posts, comments})
+
+export default rootReducer
