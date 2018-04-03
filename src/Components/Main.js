@@ -12,6 +12,10 @@ class Main extends Component {
     super()
   }
 
+  componentDidMount() {
+    this.props.startLoadingPost()
+  }
+
   render() {
     console.log(this.props)
     return (
