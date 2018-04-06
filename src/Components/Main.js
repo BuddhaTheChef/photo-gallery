@@ -22,7 +22,7 @@ class Main extends Component {
     return (
     <div>
       <h1>
-        <Link to="/">Photo Wall</Link>
+        <Link to="/">My Photo Wall</Link>
       </h1>
       <Route exact path = "/" render={() => (
         <div>
