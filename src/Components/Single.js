@@ -13,12 +13,15 @@ class Single extends Component {
     if(this.props.loading === true) {
       return <div className="loader"> ...loading </div>
     }
-    else {
+    else if(post) {
     return <div className='single-photo'>
             <Photo post={post} {...this.props} index={index}/>
             <Comments startAddingComment={this.props.startAddingComment} comments={comments} id={id}/>
           </div>
         }
+    else {
+    return <h1>...no post found</h1>
+    }
   }
 }
 
