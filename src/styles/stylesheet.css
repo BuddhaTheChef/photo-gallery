@@ -95,11 +95,11 @@ body {
 .comment-form input,
 .comment-form textarea {
  width: 100%;
- border: 0;
- font-size: 1.3rem;
- padding: 1rem 0;
- border-bottom: 1px solid #d3d3d3;
+ border: 1px solid rgb(193, 193, 193);
+ font-size: 1.5rem;
+ padding: 1.7rem 5px;
  outline: none;
+ border-radius: 7px;
  resize: vertical;
 }
 .addIcon {
@@ -129,6 +129,7 @@ button, .button {
  color: red;
  transition: all 0.2s;
  box-sizing: padding-box;
+ border-radius: 7px;
 
 }
 button:hover,.button:hover, button:focus, .button:focus {
@@ -162,7 +163,8 @@ button:hover,.button:hover, button:focus, .button:focus {
  outline: 0;
  background: #f2f2f2;
  width: 100%;
- border: 0;
+ border: 2px solid rgb(193, 193, 193);
+ border-radius: 7px;
  margin: 0 0 15px;
  padding: 15px;
  box-sizing: border-box;
