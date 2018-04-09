@@ -57,7 +57,8 @@ body {
  position: relative;
 }
 .single-photo {
- max-width: 1000px;
+ max-width: 80%;
+ padding-top: 30px;
  margin: 0 auto;
  display: flex;
  background: whitesmoke;
@@ -86,7 +87,8 @@ body {
  max-width: none;
 }
 .comment{
- width: 100%
+ width: 100%;
+ padding-left: 50px;
 }
 .comment p {
  border-bottom: 1px solid #d3d3d3;
