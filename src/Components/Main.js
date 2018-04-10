@@ -21,7 +21,7 @@ class Main extends Component {
   render() {
     console.log(this.props)
     return (
-    <div>
+    <div className="main-div">
       <h1>
         <Link to="/">My Photo Wall</Link>
       </h1>
