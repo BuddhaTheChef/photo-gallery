@@ -8,10 +8,9 @@ p {
 }
 h1 {
  text-align: center;
- padding-bottom: 30px;
  font-weight: 100;
  font-size: 13rem;
- margin: 2rem 0;
+ margin: 1rem 0;
  letter-spacing: -1px;
  color: black;
  text-decoration: none;
@@ -40,7 +39,7 @@ body {
  margin: 0 auto;
 }
 .figure {
- flex-basis: calc(33.333% - 4rem);
+ flex-basis: calc(33.333% - 9rem);
  border: 1px solid #d3d3d3;
  border-radius: 10px;
  padding: 2rem;
@@ -86,6 +85,7 @@ body {
  margin-left: -2rem;
  margin-top: -2rem;
  max-width: none;
+ border-radius: 7px;
 }
 .comment{
  width: 100%;
@@ -110,7 +110,8 @@ body {
  background-size: contain;
  padding: 40px;
  display: table;
- margin: 20px auto;
+ margin-bottom: -35px;
+ margin-left: 26px;
  border: none;
 }
 .button-container {
