@@ -23,7 +23,7 @@ class Main extends Component {
     return (
     <div className="main-div">
       <h1>
-        <Link to="/">My Photo Wall</Link>
+        <Link to="/">World Photo Wall</Link>
       </h1>
       <Route exact path = "/" render={() => (
         <div>
