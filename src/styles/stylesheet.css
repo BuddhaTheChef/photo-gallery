@@ -98,8 +98,11 @@ body {
  padding-left: 50px;
 }
 .comment p {
- border-bottom: 1px solid #d3d3d3;
- padding: 0.5rem 0;
+  background-color: whitesmoke;
+  width: 100%;
+  border-radius: 5px;
+  border-bottom: 1px solid #d3d3d3;
+  padding: 0.5rem;
 }
 .comment-form input,
 .comment-form textarea {
