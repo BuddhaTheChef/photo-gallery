@@ -1,14 +1,14 @@
 html {
  font-size: 10px;
  font-family: sans-serif;
- background-color: rgb(158, 158, 158);
+ background-color: cornflowerblue;
 }
 p {
  font-size: 1.6rem;
  line-height: 1.5;
 }
 .main-div{
-  background-color: rgb(158, 158, 158);
+  background-color: cornflowerblue;
 }
 h1 {
  text-align: center;
@@ -69,7 +69,7 @@ body {
  padding-top: 30px;
  margin: 0 auto;
  display: flex;
- background: rgb(158, 158, 158);
+ background: ;
  border: black;
 }
 .single-photo .figure {
