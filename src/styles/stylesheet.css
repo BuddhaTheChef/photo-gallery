@@ -12,22 +12,24 @@ p {
 }
 h1 {
  text-align: center;
+ font-family: 'Bangers', cursive;
+ text-shadow: -3px -3px 0 #000, 3px -3px #000, -3px 3px 0 #000, 3px 3px 0 #000;
  font-weight: 100;
- font-size: 13rem;
- margin: 1rem 0;
+ font-size: 15rem;
+ margin: 0rem 0;
  letter-spacing: -1px;
- color: black;
  text-decoration: none;
 }
 h1 a {
- color: black;
+ color: white;
  text-decoration: none;
 }
 h1 a:focus {
  outline: 0;
 }
 @font-face {
- font-family: 'billabongregular';
+  font-family: 'Monoton', cursive;
+ font-family: 'Bangers', cursive;
  src: url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot");
  src: url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot?#iefix") format('embedded-opentype'), url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.woff") format('woff'), url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.ttf") format('truetype'), url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.svg#billabongregular") format('svg');
  font-weight: normal;
@@ -169,6 +171,7 @@ button:hover,.button:hover, button:focus, .button:focus {
  width: 490px;
  padding: 0 0 0;
  margin: auto;
+ margin-top: 4%;
 }
 
 .form input {
@@ -189,6 +192,7 @@ button:hover,.button:hover, button:focus, .button:focus {
  outline: 0;
  background:#065784;
  width: 100%;
+ margin-top: 4%;
  border: 0;
  padding: 15px;
  color: #FFFFFF;
