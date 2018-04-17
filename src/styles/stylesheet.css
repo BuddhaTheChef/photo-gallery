@@ -77,7 +77,7 @@ body {
 .single-photo .figure {
  box-shadow: none;
  margin: 0 2rem 0 0;
- border: solid 0px whitesmoke;
+ border: solid 5px whitesmoke;
  padding-top: 20px;
  flex: 1 0 60%;
  max-width: 60%;
