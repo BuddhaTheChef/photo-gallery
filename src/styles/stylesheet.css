@@ -97,24 +97,28 @@ body {
 }
 .comment{
  width: 100%;
- padding-left: 50px;
+ background-color: rgba(126, 126, 126, 0.5);
+ margin: 0px 0px 0px 31px;
+ border-radius: 7px;
 }
 .comment p {
   background-color: whitesmoke;
-  width: 100%;
+  width: 95%;
   border-radius: 5px;
   border-bottom: 1px solid #d3d3d3;
   padding: 0.5rem;
+  margin-left: 5px;
 }
 .comment-form input,
 .comment-form textarea {
- width: 100%;
- border: 1px solid rgb(193, 193, 193);
- font-size: 1.5rem;
- padding: 1.7rem 5px;
- outline: none;
- border-radius: 7px;
- resize: vertical;
+  width: 94%;
+  border: 2px solid rgb(0, 0, 0);
+  font-size: 1.5rem;
+  padding: 1.7rem 5px;
+  outline: none;
+  border-radius: 7px;
+  resize: vertical;
+  margin-left: 6px;
 }
 .addIcon {
  background: url("https://image.flaticon.com/icons/svg/60/60740.svg") center no-repeat;
