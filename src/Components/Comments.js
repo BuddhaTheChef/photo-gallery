@@ -18,6 +18,7 @@ handleSubmit(event) {
   render() {
 
     return <div className="comment">
+      <h3 className="comment-header">Comments</h3>
     {
       this.props.comments.map((comment,index) => {
         return (

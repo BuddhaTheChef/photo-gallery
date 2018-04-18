@@ -95,6 +95,12 @@ body {
  max-width: none;
  border-radius: 7px;
 }
+.comment-header{
+  font-size: 21px;
+text-align: center;
+margin-right: 20px;
+text-shadow: 0 0 0.2em cornflowerblue, 0 0 0.2em cornflowerblue, 0 0 0.2em cornflowerblue;
+}
 .comment{
  width: 100%;
  background-color: rgba(126, 126, 126, 0.5);
