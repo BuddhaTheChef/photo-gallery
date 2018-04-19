@@ -134,6 +134,8 @@ text-shadow: 0 0 0.2em cornflowerblue, 0 0 0.2em cornflowerblue, 0 0 0.2em cornf
  margin-bottom: -35px;
  margin-left: 26px;
  border: none;
+ background-color: white;
+border-radius: 50%;
 }
 .button-container {
  margin: 20px auto;
