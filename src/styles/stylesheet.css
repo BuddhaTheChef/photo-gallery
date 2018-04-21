@@ -52,6 +52,7 @@ body {
  border-radius: 10px;
  padding: 2rem;
  background-color: white;
+ box-shadow: 0 8px 34px 4px rgba(0,0,0,.4);
 
  flex-grow: 1;
  margin: 0 2rem 2rem 2rem;
@@ -81,6 +82,7 @@ body {
  padding-top: 20px;
  flex: 1 0 60%;
  max-width: 60%;
+ box-shadow: 0 8px 34px 4px rgba(0,0,0,.5);
 }
 .single-photo .comments {
  flex: 1 0 40%;
