@@ -108,6 +108,7 @@ text-shadow: 0 0 0.2em cornflowerblue, 0 0 0.2em cornflowerblue, 0 0 0.2em cornf
  background-color: rgba(126, 126, 126, 0.5);
  margin: 0px 0px 0px 31px;
  border-radius: 7px;
+ box-shadow: 0 8px 34px 4px rgba(0,0,0,.4);
 }
 .comment p {
   background-color: whitesmoke;
