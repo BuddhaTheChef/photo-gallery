@@ -187,6 +187,9 @@ button:hover,.button:hover, button:focus, .button:focus {
  padding: 0 0 0;
  margin: auto;
  margin-top: 4%;
+ background-color: rgba(193, 193, 193, 0.5);
+ box-shadow: 0 8px 34px 4px rgba(0,0,0,.4);
+ padding: 35px;
 }
 
 .form input {
