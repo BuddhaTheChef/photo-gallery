@@ -1,7 +1,7 @@
 html {
  font-size: 10px;
  font-family: sans-serif;
- background-color: cornflowerblue;
+ background-color: rgb(195, 195, 195);
 }
 p {
  font-size: 2.3rem;
@@ -10,7 +10,8 @@ p {
  line-height: 1.5;
 }
 .main-div{
-  background-color: cornflowerblue;
+  width: 101%;
+  background: linear-gradient(rgb(110, 150, 231), rgb(195, 195, 195));
 }
 h1 {
  text-align: center;
