@@ -2,6 +2,9 @@ html {
  font-size: 10px;
  font-family: sans-serif;
  background-color: rgb(195, 195, 195);
+ padding: 0px;
+ margin-top: -7px;
+ margin-left: -7px;
 }
 p {
  font-size: 2.3rem;
